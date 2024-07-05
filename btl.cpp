@@ -1,6 +1,7 @@
 #include <iostream.h>
 #include <conio.h>
 
+extern ODD_SUM();
 extern EXIT();
 void main(void) {
 	char tl;
@@ -33,6 +34,9 @@ void main(void) {
 				case 1:
 					cout << "\n\tTao MD";
 					getch();
+					break;
+				case 2:
+					ODD_SUM();
 					break;
 				case 4:
 					EXIT();
