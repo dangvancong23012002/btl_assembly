@@ -2,15 +2,15 @@ INCLUDE lib1.asm
 .MODEL small
 .STACK 100h
 .DATA
-	m1 	db 13, 10, '	     TONG LE DAY SO NGUYEN'
-		db 13, 10, '	-------------------------------'
+	m1 	db 13, 10, '	       TONG LE DAY SO NGUYEN'
+		db 13, 10, '	------------------------------------'
 		db 13, 10, '	Hay vao so luong thanh phan: $'
 	m2 db 13, '	a[$'
 	m3 db ']=$'
 	m4 db 13, 'Day so vua nhap la: $'
 	m5 db ' $'
-	tieptuc db 13, 10, '	-------------------------------'
-			db 13, 10, '	Co tiep tuc chuong trinh khong(c/k) $?'
+	tieptuc db 13, 10, '	------------------------------------'
+			db 13, 10, '	Co tiep tuc chuong trinh khong(c/k)? $'
 .CODE
 	PUBLIC @ODD_SUM$qv
 @ODD_SUM$qv PROC

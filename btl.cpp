@@ -1,21 +1,25 @@
 #include <iostream.h>
 #include <conio.h>
 
+extern CRE_DIR();
 extern ODD_SUM();
+extern COM();
 extern EXIT();
 void main(void) {
 	char tl;
 	int chon;
 	clrscr();
-	cout << "\n\tTRUONG DAI HOC MO HA NOI";
-	cout << "\n\tKHOA CONG NGHE THONG TIN";
-	cout << "\n\t----------***-----------";
-	cout << "\n\n\tBAI TAP LON MON LTHT";
-	cout << "\n\n\tSinh vien thuc hien:";
+	cout << "\n\t     TRUONG DAI HOC MO HA NOI";
+	cout << "\n\t     KHOA CONG NGHE THONG TIN";
+	cout << "\n\t----------------***-----------------";
+	cout << "\n\n\t          BAI TAP LON";
+	cout << "\n\t     MON: LAP TRINH HE THONG";
+	cout << "\n\n\tGiang vien: Nguyen Dac Phuong Thao";
+	cout << "\n\n\tNhom/Sinh vien thuc hien: 01";
 	cout << "\n\n\tDang Van Cong - 2010A02";
 	cout << "\n\tLe Hai Doan   - 2010A02";
 	cout << "\n\tPham Van Long - 2110A05";
-	cout << "\n\t-------------------------";
+	cout << "\n\t------------------------------------";
 	cout << "\n\tCo tiep tuc chuong trinh khong(c/k)?";
 	tl = getch();
 	if (tl == 'c') {
@@ -32,11 +36,14 @@ void main(void) {
 			cout << "\n\tLua chon cua ban: "; cin >> chon;
 			switch(chon) {
 				case 1:
-					cout << "\n\tTao MD";
+					CRE_DIR();
 					getch();
 					break;
 				case 2:
 					ODD_SUM();
+					break;
+				case 3:
+					COM();
 					break;
 				case 4:
 					EXIT();
