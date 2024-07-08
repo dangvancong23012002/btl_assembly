@@ -9,4 +9,11 @@
 - exit.asm -> Tệp thoát chương trình 
 ## Lệnh chạy
 dich btl.cpp osum.asm exit.asm 
+## Chạy chương trình
+### 1. Main Menu
+![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/e695aaa3-245a-4890-af5e-96a247411020)
+### 2. Các chức năng
+![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/ab0ddf3b-052d-4a3c-a37a-b0b688649495)
+
+
 
