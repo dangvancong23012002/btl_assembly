@@ -14,6 +14,12 @@ dich btl.cpp cdir.asm osum.asm com.asm exit.asm
 ![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/e695aaa3-245a-4890-af5e-96a247411020)
 ### 2. Các chức năng
 ![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/ab0ddf3b-052d-4a3c-a37a-b0b688649495)
+### 3. Chức năng tạo thư mục
+![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/d63adcce-1e2a-4a7a-be44-e5dfdd1df356)
+### 4. Chức năng tính tổng âm
+![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/a490caf9-3677-488b-a718-f15795e8acd9)
+
+
 
 
 
