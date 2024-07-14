@@ -18,6 +18,9 @@ dich btl.cpp cdir.asm osum.asm com.asm exit.asm
 ![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/d63adcce-1e2a-4a7a-be44-e5dfdd1df356)
 ### 4. Chức năng tính tổng âm
 ![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/a490caf9-3677-488b-a718-f15795e8acd9)
+### 5. Cổng COM
+![image](https://github.com/user-attachments/assets/3d9360ab-c548-490f-b177-fd381b9a1d9d)
+
 
 
 
