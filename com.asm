@@ -19,7 +19,7 @@ INCLUDE lib1.asm
 		mov ds, ax 
 		
 	L_CT0:
-		CLRSCR
+		clrscr
 		HienString com1
 		int 11h ; Ngắt hệ thống thực hiện việc đưa nội dung ô nhớ [0:411h] -> al 
 		mov al, ah ; Đưa nội dung 0:411h -> ah 
