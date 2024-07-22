@@ -9,7 +9,7 @@ INCLUDE lib1.asm
 	m3 db ']=$'
 	m4 db 13, '	Day so vua nhap la: $'
 	space db ' $'
-	m5 db 13, 10, '	Tong cac thanh phan am cua mang la: $'
+	m5 db 13, 10, '	Tong cac thanh phan le cua mang la: $'
 	tieptuc db 13, 10, '	------------------------------------'
 			db 13, 10, '	Co tiep tuc chuong trinh khong(c/k)? $'
 	slpt dw ?
@@ -61,11 +61,11 @@ INCLUDE lib1.asm
 		lea bx, a 			; bx trỏ đến a[0]
 		xor ax, ax 			; ax chứa tổng (lúc đầu = 0)
 		
-	; Tổng các thành phần âm của mảng 
+	; Tổng các thành phần lẻ của mảng 
 	L_CT3:
 		mov dx, [bx] 		; dx = a[i]
-		and dx, dx 			; Dựng cờ dấu (S = 1 thì dx chứa số âm, S = 0 thì dx chứa số âm)
-		jns L_CT4
+		shr dx, 1 			; Bit thấp nhất đưa vào cờ Carry (C = 1 -> a[i] là lẻ, C = 0 -> a[i] là chẵn)
+		jnc L_CT4			; Nhảy nếu không nhớ (CF = 0)
 		add ax, [bx] 		; Còn giá trị a[i] âm thì cộng vào tổng nằm ở ax 
 		
 	L_CT4:
