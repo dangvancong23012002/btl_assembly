@@ -1,9 +1,9 @@
-INCLUDE lib1.asm
+INCLUDE LIB1.asm
 .MODEL small
 .STACK 100h
 .DATA
 	dir1	db 13, 10, '	       CHUC NANG TAO THU MUC'
-			db 13, 10, '	------------------------------------'
+			db 13, 10, '	----------------oOo-----------------'
 			db 13, 10, '	Hay vao ten thuc muc can tao: $'
 	err_dir db 13, 10, '	Khong tao duoc thu muc! $'
 	suc_dir db 13, 10, '	Tao thu muc thanh cong! $'
@@ -46,6 +46,6 @@ INCLUDE lib1.asm
 		int 21h
 	ret
 	
-INCLUDE lib3.asm 
+INCLUDE LIB3.asm 
 @CRE_DIR$qv ENDP
 	END

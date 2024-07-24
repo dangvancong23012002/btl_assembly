@@ -1,9 +1,9 @@
-INCLUDE lib1.asm
+INCLUDE LIB1.asm
 .MODEL small
 .STACK 100h
 .DATA
 	m1 	db 13, 10, '	       TONG LE DAY SO NGUYEN'
-		db 13, 10, '	------------------------------------'
+		db 13, 10, '	----------------oOo-----------------'
 		db 13, 10, '	Hay vao so luong thanh phan: $'
 	m2 db 13, '	a[$'
 	m3 db ']=$'
@@ -88,6 +88,6 @@ INCLUDE lib1.asm
 		int 21h
 		ret
 	
-INCLUDE lib2.asm 
+INCLUDE LIB2.asm 
 @ODD_SUM$qv ENDP
 	END

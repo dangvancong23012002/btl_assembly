@@ -11,7 +11,7 @@ void main(void) {
 	clrscr();
 	cout << "\n\t     TRUONG DAI HOC MO HA NOI";
 	cout << "\n\t     KHOA CONG NGHE THONG TIN";
-	cout << "\n\t----------------***-----------------";
+	cout << "\n\t----------------oOo-----------------";
 	cout << "\n\n\t          BAI TAP LON";
 	cout << "\n\t     MON: LAP TRINH HE THONG";
 	cout << "\n\n\tGiang vien: Nguyen Dac Phuong Thao";
@@ -27,7 +27,7 @@ void main(void) {
 			clrscr();
 			cout << "\n\t               De 1";
 			cout << "\n\n\tCAC CHUC NANG TAO MD, TONG SL, CONG COM";
-			cout << "\n\t---------------------------------------";
+			cout << "\n\t------------------oOo------------------";
 			cout << "\n\t1 ... Chuc nang MD";
 			cout << "\n\t2 ... Tong le day so nguyen";
 			cout << "\n\t3 ... Cong COM va dia chi";

@@ -1,9 +1,9 @@
-INCLUDE lib1.asm
+INCLUDE LIB1.asm
 .MODEL small
 .STACK 100h
 .DATA
 	com1 	db 13, 10, '	              CONG COM'
-			db 13, 10, '	------------------------------------'
+			db 13, 10, '	-----------------oOo----------------'
 			db 13, 10, '	May tinh dang dung co cong COM khong? $'
 	co db 'Co $'
 	khong db 'Khong $'
@@ -62,6 +62,6 @@ INCLUDE lib1.asm
 		int 21h
 	ret
 
-INCLUDE lib2.asm 
+INCLUDE LIB2.asm 
 @COM$qv ENDP
 	END
