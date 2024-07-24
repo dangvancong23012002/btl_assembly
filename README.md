@@ -11,15 +11,20 @@
 dich btl.cpp cdir.asm osum.asm com.asm exit.asm
 ## Chạy chương trình
 ### 1. Main Menu
-![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/e695aaa3-245a-4890-af5e-96a247411020)
+![image](https://github.com/user-attachments/assets/17037d94-e647-413b-82cf-d9a3b5cb5ab4)
 ### 2. Các chức năng
-![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/ab0ddf3b-052d-4a3c-a37a-b0b688649495)
+![image](https://github.com/user-attachments/assets/c78fdc9f-a662-41bf-9e5c-439ff7a5e724)
 ### 3. Chức năng tạo thư mục
-![image](https://github.com/dangvancong23012002/btl_assembly/assets/111124018/d63adcce-1e2a-4a7a-be44-e5dfdd1df356)
+![image](https://github.com/user-attachments/assets/9642028d-c7ef-4cf6-a3a1-0799ad96ad61)
 ### 4. Chức năng tính tổng lẻ của mảng
-![image](https://github.com/user-attachments/assets/222880e3-0323-4c12-9329-671d8f905007)
+![image](https://github.com/user-attachments/assets/3606ec0c-b471-49d3-a07c-992cf06a96b4)
 ### 5. Cổng COM
-![image](https://github.com/user-attachments/assets/3d9360ab-c548-490f-b177-fd381b9a1d9d)
+![image](https://github.com/user-attachments/assets/dfeba5a8-e427-4fa6-bcfc-e7669af97964)
+### 6. Về DOS
+![image](https://github.com/user-attachments/assets/8d328d64-bbfb-4405-9075-579b92241e81)
+
+
+
 
 
 
