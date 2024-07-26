@@ -5,9 +5,9 @@ INCLUDE LIB1.asm
 	m1 	db 13, 10, '	       TONG LE DAY SO NGUYEN'
 		db 13, 10, '	----------------oOo-----------------'
 		db 13, 10, '	Hay vao so luong thanh phan: $'
-	m2 db 13, '	a[$'
+	m2 db 13, 10, '	a[$'
 	m3 db ']=$'
-	m4 db 13, '	Day so vua nhap la: $'
+	m4 db 13, 10, '	Day so vua nhap la: $'
 	space db ' $'
 	m5 db 13, 10, '	Tong cac thanh phan le cua mang la: $'
 	tieptuc db 13, 10, '	------------------------------------'
@@ -15,6 +15,9 @@ INCLUDE LIB1.asm
 	slpt dw ?
 	i dw ?
 	a dw 100 dup(?)
+	buff  	db 8
+			db ?
+			db 8 dup(?)
 .CODE
 	PUBLIC @ODD_SUM$qv
 @ODD_SUM$qv PROC
@@ -88,6 +91,6 @@ INCLUDE LIB1.asm
 		int 21h
 		ret
 	
-INCLUDE LIB2.asm 
+INCLUDE LIB5.asm 
 @ODD_SUM$qv ENDP
 	END
