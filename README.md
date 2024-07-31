@@ -8,7 +8,7 @@
 - com.asm -> Tệp cổng COM
 - exit.asm -> Tệp thoát chương trình 
 ## Lệnh chạy
-dich btl.cpp cdir.asm osum.asm com.asm exit.asm
+dich btl.cpp cdir.asm osum.asm com.asm sum.asm exit.asm
 ## Chạy chương trình
 ### 1. Main Menu
 ![image](https://github.com/user-attachments/assets/17037d94-e647-413b-82cf-d9a3b5cb5ab4)
