@@ -81,8 +81,8 @@ INCLUDE LIB1.asm
 	; Tổng các thành phần chan của mảng 
 	L_CT3:
 		mov dx, [bx] 		; dx = a[i]
-		and dx, dx 
-		jns L_CT4			; Nhayr neu duong
+		and dx, dx 			; Dựng cờ dấu (S = 1 thì dx chứa số âm, S = 0 thì dx chứa số âm 
+		jns L_CT4			; Nhảy nếu dấu dương (SF = 0)
 		mov dx, [bx]
 		shr dx, 1 			; Bit thấp nhất đưa vào cờ Carry (C = 1 -> a[i] là lẻ, C = 0 -> a[i] là chẵn)
 		jc L_CT4			; Nhảy nếu không nhớ (CF = 0)
