@@ -4,6 +4,7 @@
 extern CRE_DIR();
 extern ODD_SUM();
 extern COM();
+extern NEG_EVEN_SUM();
 extern EXIT();
 void main(void) {
 	char tl;
@@ -31,7 +32,8 @@ void main(void) {
 			cout << "\n\t1 ... Chuc nang MD";
 			cout << "\n\t2 ... Tong le day so nguyen";
 			cout << "\n\t3 ... Cong COM va dia chi";
-			cout << "\n\t4 ... Thoat ve DOS";
+			cout << "\n\t4 ... Tong chan am cua day so nguyen";
+			cout << "\n\t5 ... Thoat ve DOS";
 			cout << "\n\t---------------------------------------";
 			cout << "\n\tLua chon cua ban: "; cin >> chon;
 			switch(chon) {
@@ -46,6 +48,8 @@ void main(void) {
 					COM();
 					break;
 				case 4:
+					NEG_EVEN_SUM();
+				case 5:
 					EXIT();
 					break;
 				default:
