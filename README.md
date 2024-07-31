@@ -20,7 +20,9 @@ dich btl.cpp cdir.asm osum.asm com.asm exit.asm
 ![image](https://github.com/user-attachments/assets/3606ec0c-b471-49d3-a07c-992cf06a96b4)
 ### 5. Cổng COM
 ![image](https://github.com/user-attachments/assets/dfeba5a8-e427-4fa6-bcfc-e7669af97964)
-### 6. Về DOS
+### 6. Chức năng tính tổng chẵn âm của mảng
+![image](https://github.com/user-attachments/assets/3b7b953d-7d03-4caf-9e57-2f7d694c9059)
+### 7. Về DOS
 ![image](https://github.com/user-attachments/assets/8d328d64-bbfb-4405-9075-579b92241e81)
 
 
